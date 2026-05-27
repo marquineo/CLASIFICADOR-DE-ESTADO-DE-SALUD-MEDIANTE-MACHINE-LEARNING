@@ -66,7 +66,7 @@ def train(data_path: str = '../data/heart.csv'):
         Guarda los modelos y el scaler
         Devuelve los modelos y los datos de test para que evaluation.py los evalúe
     El scaler se guarda también porque en producción, cuando llegue un nuevo paciente, 
-    necesitarás escalar sus datos con el mismo scaler que usaste en entrenamiento.
+    necesitarás escalar sus datos con el mismo scaler que usamos en entrenamiento.
     """
     X_train, X_test, y_train, y_test, scaler = preprocess(data_path)
 

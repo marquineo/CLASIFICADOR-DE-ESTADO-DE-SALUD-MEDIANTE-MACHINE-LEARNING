@@ -12,7 +12,7 @@ def load_data(path: str) -> pd.DataFrame:
 
 def fix_types(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Convierte las columnas que identificamos en el EDA a tipo category. Lo mismo que hicimos en el notebook pero formalizado.
+    Convierte las columnas que identificamos en el EDA a tipo category. Lo mismo que hice en el notebook pero formalizado.
     """
     cols_category = ['Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope']
     df[cols_category] = df[cols_category].astype('category')

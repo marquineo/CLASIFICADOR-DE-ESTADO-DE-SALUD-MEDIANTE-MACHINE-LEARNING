@@ -62,10 +62,10 @@ def plot_confusion_matrices(models: dict, X_test, y_test):
                     Predicho Sano   Predicho Enfermo
     Real Sano            TN                FP
     Real Enfermo         FN                TP
-    TN — sano predicho como sano ✅
-    TP — enfermo predicho como enfermo ✅
-    FP — sano predicho como enfermo ⚠️ (falsa alarma)
-    FN — enfermo predicho como sano ❌ (el error más peligroso)
+    TN — sano predicho como sano
+    TP — enfermo predicho como enfermo
+    FP — sano predicho como enfermo
+    FN — enfermo predicho como sano
     """
     fig, axes = plt.subplots(1, len(models), figsize=(16, 5))
 
@@ -125,7 +125,7 @@ def evaluate_by_sex(models: dict, X_test, y_test, df_original):
     Aplica la conclusión del EDA — vigilar el rendimiento segmentado por sexo. 
     Recupera la columna Sex del CSV original usando el índice de X_test para alinear correctamente, 
     luego calcula el Recall por separado para hombres y mujeres. 
-    Esperamos ver un Recall más bajo en mujeres por el desbalance que detectamos.
+    Se espera ver un Recall más bajo en mujeres por el desbalance detectado.
     """
     # Recuperar la columna Sex del índice original
     sex_test = df_original.loc[X_test.index, 'Sex']

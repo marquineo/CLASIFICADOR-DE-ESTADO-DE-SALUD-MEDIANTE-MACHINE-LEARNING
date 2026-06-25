@@ -1,4 +1,4 @@
-# Proyecto 3 — Predicción de Enfermedad Cardíaca mediante Machine Learning
+# Proyecto 3 — Clasificador de Enfermedad Cardíaca mediante Machine Learning
 
 ## Descripción del proyecto
 Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning clásico capaz de predecir la presencia de enfermedad cardíaca a partir de datos biomédicos de pacientes.

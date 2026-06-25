@@ -1,8 +1,8 @@
-# Proyecto 3 — Clasificador de Enfermedad Cardíaca mediante Machine Learning
+# Proyecto 3 — Clasificación de Enfermedad Cardíaca mediante Machine Learning
 
 ## Descripción del proyecto
-Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning clásico capaz de predecir la presencia de enfermedad cardíaca a partir de datos biomédicos de pacientes.
-El sistema utiliza un dataset clínico en formato CSV y aplica técnicas de análisis de datos, preprocesamiento y clasificación supervisada para detectar posibles casos de riesgo cardiovascular.
+Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning clásico capaz de **clasificar** pacientes según la presencia o ausencia de enfermedad cardíaca a partir de datos biomédicos.
+El sistema utiliza un dataset clínico en formato CSV y aplica técnicas de análisis de datos, preprocesamiento y **clasificación supervisada** para detectar posibles casos de riesgo cardiovascular.
 
 ---
 
@@ -10,8 +10,8 @@ El sistema utiliza un dataset clínico en formato CSV y aplica técnicas de aná
 - Analizar un dataset médico real.
 - Realizar limpieza y preprocesamiento de datos.
 - Aplicar técnicas de análisis exploratorio (EDA).
-- Entrenar modelos de Machine Learning clásico.
-- Evaluar el rendimiento de los modelos predictivos.
+- Entrenar modelos de **clasificación** de Machine Learning clásico.
+- Evaluar el rendimiento de los modelos de **clasificación**.
 - Comparar distintos algoritmos de clasificación.
 
 ---
